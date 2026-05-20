@@ -18,3 +18,12 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Non-project tutorial / learning scripts
+Agents.py
+newsSummarizer.py
+ownTool.py
+parallelRunnables.py
+passthroughRunnable.py
+sequencerunnables.py
+toolcalling.py
