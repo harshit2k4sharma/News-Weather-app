@@ -1,0 +1,20 @@
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit config and secrets (if any)
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
