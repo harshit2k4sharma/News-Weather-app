@@ -149,6 +149,43 @@ st.markdown("""
         border: 1px solid #2e3748;
         margin-bottom: 1rem;
     }
+    
+    /* High Visibility Chat Message Styling */
+    [data-testid="stChatMessage"] {
+        background-color: #181d28 !important;
+        border: 1px solid #2d3748 !important;
+        border-radius: 12px !important;
+        padding: 1.2rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    [data-testid="stChatMessage"] p, 
+    [data-testid="stChatMessage"] span, 
+    [data-testid="stChatMessage"] li, 
+    [data-testid="stChatMessage"] div {
+        color: #ffffff !important;
+        font-weight: 500 !important;
+        font-size: 1rem !important;
+        line-height: 1.55 !important;
+    }
+
+    [data-testid="stChatMessage"] a {
+        color: #60a5fa !important;
+        font-weight: 600 !important;
+        text-decoration: underline !important;
+    }
+
+    [data-testid="stChatMessage"] strong {
+        color: #ffffff !important;
+        font-weight: 700 !important;
+    }
+
+    [data-testid="stChatMessage"] code {
+        background-color: #2e3748 !important;
+        color: #f87171 !important;
+        padding: 0.2rem 0.4rem !important;
+        border-radius: 4px !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
